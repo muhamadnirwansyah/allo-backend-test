@@ -1,4 +1,8 @@
 package com.allo.bank.singleapi.strategy;
 
-public class IDRDataFetcher {
+import java.util.List;
+
+public interface IDRDataFetcher {
+    String getResourceType();
+    List<?> fetchData();
 }

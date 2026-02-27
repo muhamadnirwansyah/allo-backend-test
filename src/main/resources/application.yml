@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: allo-backend-test
+app:
+  frankfurter:
+    base-url: https://api.frankfurter.app
+github:
+  username: muhamadnirwansyah
+server:
+  port: 8181
